@@ -1,0 +1,445 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: AktivGroteskCdBlack,sans-serif;
+    list-style: none;
+}
+
+/* header style */
+.header{
+    width: 100%;
+    background: #009b4e;
+    height: 91px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 35px;
+    position: fixed;
+}
+.header .link-bar, .header .link-bar ul{
+    display: flex;
+    
+}
+.header .link-bar ul li, a{
+    list-style: none;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 15px;
+    letter-spacing: -1.5px;
+    font-weight: 700;
+}
+.header .logo {
+    height: 100%;
+    width: 25%;
+    margin-top: -30px;
+    padding-left: 50px;
+}
+.header .logo img{
+  width: 38%;
+}
+.header .link-bar{
+    width: 65%;
+    height: 100%;
+    justify-content: space-around;
+}
+.links,.social-media{
+    width: 50%;
+}
+.header .link-bar .links ul{
+    margin-left: -200px;
+}
+.social-media ul{
+    margin-left: 280px;
+   
+}
+.social-media ul li a i:hover{
+    color: #000;
+    
+}   
+.sign-in{
+    width: 5%;
+    height: 100%;
+}
+#login:hover{
+    color: #000;
+}
+ #checking,.header label{
+    display: none;
+}
+/* first body left section */
+.first-body{
+    background: #000;
+    color: #fff;
+    width: 100%;
+    height: 43.07em;
+    display: flex;
+}
+.left-section,.right-section{
+    width: 50%;
+    height: 100vh;
+    padding-top: 90px;
+}
+.left-section{
+    padding-top: 10.5em;
+    padding-left: 4.3em;
+    line-height: 5em;
+}
+.left-section .dropsImage img{
+    width: 23.5em;
+}
+.left-section .hiphoppara h1{
+    font-weight: 900;
+    font-size: 3.5em;
+}
+.left-section .lernmore input{
+    background:rgb(255,209,0);
+    color: #000;
+    font-weight: 900    ;
+    width: 150px;
+    height: 40px;
+    border-style: none;
+    margin-top: 4em;
+}
+/* first body left section  end*/
+/* first body right section start */
+.right-section .sprteBottleImage1 img{
+    width: 100%;
+}
+.sprteBottleImage2 img{
+    display: none;
+}
+/* first body right section end */
+ /* second body strt */
+ .second-section{
+        display: flex;
+        padding-top: 2.5em;
+        height: 115.5vh;
+        width: 100%;
+ }
+ .second-section .second-left{
+    padding-left: 8.5em;
+    width: 50%;
+    height: 100%;
+ }
+ .remaidpara h1{
+    margin-top: 130px;
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: -2px;
+    color:  #009639;
+ }
+ .second-section .second-right{
+    padding-left: 1em;
+    width: 50%;
+    height: 100%;
+ }
+ .second-section .second-right .yearspara{
+    width: 95%;
+ }
+ .second-section .second-right .yearspara h1{
+    font-size:50px ;
+    font-weight: 900;
+    letter-spacing:-1.5px ;
+    word-spacing: -2px;
+    line-height: 48px;
+ }
+ .second-section .second-right .inthispara h5{
+    font-weight: 900;
+    font-size: x-large;
+    letter-spacing: -1px;
+    font-stretch: ultra-condensed;
+    margin-top: 20px;
+ }
+ .second-section .second-right .shopnowbuton input[type="submit"]{
+    margin-top: 90px;
+    background: rgb(255,209,0);
+    border: none;
+    font-weight: 900;
+    width: 160px;
+    height: 30px;
+ }
+ .second-section .second-right .allClearBottleImg img{
+    width: 92%;
+ }
+ /* second body end */
+ /* footer satrt */
+ .footer{
+    width: 100%;
+    height: 60vh;
+    background:    #009b4e;
+ }
+ .footer .firstfooter{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5em;
+    padding-left: 10em;
+    
+ }
+ .footer .firstfooter .footerlogo{
+    margin-right: auto;
+ }
+ .footer .firstfooter .footerlogo img{
+    width: 40%;
+    
+ } 
+ .footer .firstfooter .footerSocialMedia ul{
+    margin-left: -14em;
+    display: flex;
+    font-size: x-large;
+
+ }
+ .footer .firstfooter .footerSocialMedia ul li a{
+    margin: 3px;
+ }
+ .footer .firstfooter .footerSocialMedia h3{
+    margin-top:-18px ;
+    font-weight: 900;
+    font-size: small;
+    margin-left: -25.4em;
+    margin-bottom: 60px;
+    color: #fff;
+    letter-spacing: -1px;
+ }
+ .footer .firstfooter .footerSocialMedia{
+    margin-right: auto;
+ }
+ #products{
+    color: #fff;
+    font-weight: 700;
+    margin-left: 14px;
+ }
+ .products{
+   margin-right: auto;
+   line-height: 2;
+ }
+ .midlefooter{
+    color: #fff;
+    margin-bottom: 25px;
+    padding-left: 35em;
+ }
+ .lastfooter ul {
+    display: flex;
+    padding-left: 25em;
+    font-size: smaller;
+ }
+ 
+ /* footer end */
+
+
+/* under 1445 */
+@media screen and (max-width:1445px) {
+    .social-media ul{
+        margin-left: 140px;
+    }
+   .header .link-bar .links ul{
+        margin-left: -180px;
+    }
+
+}
+/* under 1445 */
+/* under 1100px */
+    @media screen and (max-width:1100px) {
+        .header{
+            position: static;
+            
+        }
+        /* headr start */
+        .header .logo  img{
+            width: 160px;
+            margin-left: -50px;
+        }
+        .header .sign-in{
+            margin-right: 50px;
+        }
+    .header .link-bar{
+        position: fixed;
+        top: 91px;
+        left: -100%;
+        background: #0b5e35;
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+        font-size:x-large;
+        display: block;
+        transition: all 400ms;
+    }
+    .header .link-bar .links ul {
+        display: block;
+        margin-left: 80px;
+    }
+    .header .link-bar .links ul li{
+        text-decoration: underline;
+        height: 70px;
+        padding: 20px;
+        width: 500px;
+    }
+    .header label{
+        /* position: fixed; */
+        display: block;
+        color: #fff;
+        font-size: xx-large;
+      margin-left: 20px;
+      margin-top: -30px;
+    }
+
+    #checking:checked ~ .link-bar{
+        left: 0%;
+    }
+    #checking:checked ~ label i::before{
+        content: '\f00d';
+    }
+    /* header end */
+    /* first body start */
+    .first-body{
+        display: block;
+    }
+    .left-section,.right-section{
+        width: 100%;
+        height: auto;
+    }
+    .left-section{
+        height: 35vh;
+        padding-top: 40px;
+        line-height: 45px;
+       
+    }
+    .left-section .dropsImage img{
+        width: 50%;
+        
+    }
+    .left-section .hiphoppara h1{
+        font-weight: 900;
+        font-size: 2.5em;
+        display: flex;
+  
+    }
+    .left-section .lernmore input{
+        background:rgb(255,209,0);
+        color: #000;
+        font-weight: 900    ;
+        width: 150px;
+        height: 40px;
+        border-style: none;
+        margin-top: 4em;
+    }
+    .right-section .sprteBottleImage1 img{
+        display: none;
+    }
+    .sprteBottleImage2 img{
+        display: block;
+        /* margin-top: -12em; */
+        width: 100%;
+        margin-bottom: 0;
+    }
+    /* first body end    */
+    /* second body strt */
+    .second-section{
+        width: 100%;
+        display: block;
+        height: 120vh;
+        
+    }
+    .second-left{
+        width: 100%;
+    }
+    .second-section .second-left .iframe iframe{
+        position: absolute;
+        width: 100%;
+        top: 55em;
+        left: 0;
+    }
+    .second-section .second-right .yearspara{
+        width: 100%;
+    }
+    .second-section .second-right .yearspara h1{
+        position: absolute;
+        margin-top: -11em;
+        font-size: 32px;
+        
+    }
+    .second-section .second-right .inthispara {
+        position: absolute;
+        top: 82em;
+        width: 100%;
+        
+    }
+    .shopnowbuton{
+        position: absolute;
+        top:85em ;
+        
+    }
+    .remaidpara h1{
+        position: absolute;
+        width: 100%;
+        font-size: 30px;
+        top: 46em;
+        left: 14px;
+     }
+     .second-section .second-right .allClearBottleImg img{
+        width: 100%;
+        position: absolute;
+        justify-content: center;
+        align-items: center;        
+     }
+    /* second body end */
+    /* footer start */
+    .footer{
+      
+        position: absolute;
+        width: 100%;
+        height: 120vh;
+        background: #009b4e;
+        margin-top: 25em
+    }
+    .footer .firstfooter{
+        width: 100%;
+       display: flex;
+       flex-direction: column;
+     }
+     .footer .firstfooter :nth-child(2){
+        top: 0;
+     }
+     .footer .firstfooter .footerlogo{
+        position: absolute;
+        width: 100%;
+        top: 4em;
+     }
+    .footer .firstfooter .footerlogo img{
+       width: 55%;
+    } 
+    .footer .firstfooter .footerSocialMedia{
+        position: relative;
+        top: 100px;
+    }
+     .footer .firstfooter .footerSocialMedia ul{
+        margin-left: 0;
+        display: flex;
+        font-size: x-large;
+    
+     }
+     .footer .firstfooter .footerSocialMedia h3{
+        margin-top:30px ;
+        font-weight: 900;
+        font-size: small;
+        margin-left: -0em;
+        margin-bottom: 60px;
+        color: #fff;
+        letter-spacing: -1px;
+     }
+     .products{
+        position: absolute;
+        top:350px;
+     }
+     .midlefooter{
+       display: none;
+        
+     }
+     .lastfooter {
+        display: none;
+     }
+     
+     
+    /* footer end */
+    }
+/* under 1100px */
